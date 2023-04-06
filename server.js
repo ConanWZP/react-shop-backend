@@ -3,11 +3,14 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 
+const home = require("./routes/home");
+
 const stripe = require("stripe")(process.env.REACT_APP_STRIPE_SECRET_KEY);
 
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use("/home", home);
 
 app.get("/", (req, res) => {
     res.send('Welcome to our shop')
