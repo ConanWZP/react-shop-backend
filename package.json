@@ -1,0 +1,75 @@
+{
+  "name": "react-shop-backend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@reduxjs/toolkit": "^1.9.2",
+    "@stripe/react-stripe-js": "^2.0.0",
+    "@stripe/stripe-js": "^1.49.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.11",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-redux": "^7.1.25",
+    "axios": "^1.3.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase": "^9.16.0",
+    "leaflet": "^1.9.3",
+    "nodemon": "^2.0.21",
+    "notiflix": "^3.2.6",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-content-loader": "^6.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-leaflet": "^4.2.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "5.0.1",
+    "react-star-rate": "^0.2.0",
+    "react-toastify": "^9.1.1",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "scss-loader": "^0.0.1",
+    "stripe": "^11.15.0",
+    "typescript": "^4.9.4",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start:frontend": "react-scripts start",
+    "start:backend": "nodemon server.js",
+    "start": "node server",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.0",
+    "tailwindcss": "^3.2.4"
+  }
+}
